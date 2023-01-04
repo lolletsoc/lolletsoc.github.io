@@ -39,7 +39,7 @@ export default function Home() {
                         </nav>
                     </div>
                     <Image
-                        src="/me.png"
+                        src="/me.jpg"
                         alt="A picture of Liam Costello"
                         width={350}
                         height={500}
