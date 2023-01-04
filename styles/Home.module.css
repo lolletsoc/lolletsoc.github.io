@@ -1,0 +1,49 @@
+.layout {
+    display: grid;
+    grid-auto-rows: min-content;
+    background-color: #EAE6E5;
+    grid-template-areas:
+            "nav nav"
+            "main main";
+    height: 100vh;
+}
+
+.contentWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 72rem;
+    padding-top: 50px;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+}
+
+.pictureOfMe {
+    grid-area: pic;
+    border-radius:30px;
+}
+
+.tagLineWrapper {
+    grid-area: headline;
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.tagLineWrapper h1 {
+    font-family: 'Merriweather', serif;
+    border: medium dashed #444444;
+    padding-right: 25px;
+    padding-left: 5px;
+}
+
+.desc {
+    font-family: 'Poppins', serif;
+}
+
+.downloadContactNav {
+    font-family: 'Poppins', serif;
+    display: flex;
+    column-gap: 1em;
+}
