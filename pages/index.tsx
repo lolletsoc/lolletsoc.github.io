@@ -27,10 +27,8 @@ export default function Home() {
                             high-performance <br/> systems and teams.</h1>
                         </span>
                         <p className={styles.desc}>I'm a seasoned engineer with 10+ years of experience in
-                            backend development,
-                            <br/>infrastructure, architectural design and leading engineering organisations.
-                            <br/> I
-                            focus on clean well thought out patterns, ensuring consistency <br/> across the stack and
+                            backend development, infrastructure, architectural design and leading engineering organisations.
+                            I focus on clean well thought out patterns, ensuring consistency across the stack and
                             ultimately reducing the need for significant refactoring in the future.
                         </p>
 

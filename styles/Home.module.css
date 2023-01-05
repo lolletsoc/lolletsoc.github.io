@@ -33,6 +33,7 @@
 
 .tagLineWrapper h1 {
     font-family: 'Merriweather', serif;
+    display: inline-block;
     border: medium dashed #444444;
     padding-right: 25px;
     padding-left: 5px;
@@ -42,6 +43,8 @@
 .desc {
     font-family: 'Poppins', serif;
     font-size: 1.0rem;
+    display: inline-block;
+    width: 55rem;
 }
 
 .contact {
