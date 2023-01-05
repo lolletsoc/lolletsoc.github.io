@@ -33,9 +33,14 @@ export default function Home() {
                             focus on clean well thought out patterns, ensuring consistency <br/> across the stack and
                             ultimately reducing the need for significant refactoring in the future.
                         </p>
+
+                        <h2 className={styles.contact}>Want to <i>hire me</i> or fancy a chat?</h2>
+                        <p className={styles.desc}>
+                            I'm available for hire, consultation and mentoring. <br/>
+                            Contact me on <a href="mailto:liam@lolletsoc.com">liam@lolletsoc.com</a>
+                        </p>
                         <nav className={styles.downloadContactNav}>
                             <a href="/liam_costello_cv.pdf">Download CV</a>
-                            <a href="/contact">Contact</a>
                         </nav>
                     </div>
                     <Image

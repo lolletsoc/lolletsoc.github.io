@@ -42,8 +42,13 @@
     font-family: 'Poppins', serif;
 }
 
+.contact {
+    font-family: 'Merriweather', serif;
+}
+
 .downloadContactNav {
     font-family: 'Poppins', serif;
     display: flex;
     column-gap: 1em;
+    padding-top: 20px;
 }
