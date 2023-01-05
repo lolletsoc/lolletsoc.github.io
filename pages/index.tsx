@@ -40,7 +40,7 @@ export default function Home() {
                             Contact me on <a href="mailto:liam@lolletsoc.com">liam@lolletsoc.com</a>
                         </p>
                         <nav className={styles.downloadContactNav}>
-                            <a href="/liam_costello_cv.pdf">Download CV</a>
+                            <a href="/liam_costello_cv.pdf" rel="nofollow">Download CV</a>
                         </nav>
                     </div>
                     <Image

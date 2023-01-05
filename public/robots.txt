@@ -1,5 +1,8 @@
 User-agent: *
 Disallow: /*.pdf
 
+User-agent: Googlebot-Image
+Disallow: /
+
 User-agent: *
 Disallow:
