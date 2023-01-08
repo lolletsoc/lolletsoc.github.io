@@ -15,6 +15,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+                <link rel="canonical" href="https://lolletsoc.com" />
             </Head>
             <main className={styles.layout}>
                 <NavBar/>
