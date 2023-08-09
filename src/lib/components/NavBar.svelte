@@ -2,7 +2,7 @@
     import {base} from '$app/paths';
 </script>
 
-<div class="mx-auto flex justify-center bg-black">
+<div class="mx-auto flex justify-center bg-black flex-col items-center">
     <nav>
         <ul class="btn-group [&_li]:px-4 text-white">
             <li><a class="btn" href="{base}/">Home</a></li>
