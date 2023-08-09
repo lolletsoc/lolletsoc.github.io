@@ -1,6 +1,7 @@
 <script>
   import me from "/static/me.jpg?run&width=250";
   import Img from "@zerodevx/svelte-img";
+  import { base } from '$app/paths';
 </script>
 
 <div class="mx-auto container bg-background flex flex-nowrap mt-[4rem] h-auto w-fit">
@@ -23,7 +24,7 @@
     </p>
 
     <nav>
-      <a class="btn btn-xl variant-filled-primary" href="/liam_costello_cv.pdf" rel="nofollow">Download CV</a>
+      <a class="btn btn-xl variant-filled-primary" href="{base}/liam_costello_cv.pdf" rel="nofollow">Download CV</a>
     </nav>
 
   </div>
