@@ -4,8 +4,8 @@
   import { base } from '$app/paths';
 </script>
 
-<div class="mx-auto container bg-background flex flex-nowrap mt-[4rem] h-auto w-fit">
-  <div class="flex flex-col flex-wrap gap-10 mx-auto w-[70%]">
+<div class="mx-auto container bg-background flex flex-nowrap mt-[2em] h-auto w-fit">
+  <div class="flex flex-col flex-wrap gap-10 mx-auto max-w-[36em]">
         <span class="font-merriweather border-2 border-dashed border-black text-2xl w-fit p-2">
             <h1>Liam is a <span class="font-bold">principal engineer</span> and <span class="font-bold">architect</span> <br /> building products,
             high-performance <br /> systems and teams.</h1>
