@@ -1,0 +1,46 @@
+@import './styles/mixins';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/merriweather-v30-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('/fonts/merriweather-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/fonts/merriweather-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/fonts/merriweather-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('/fonts/merriweather-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('/fonts/merriweather-v30-latin-regular.svg#Merriweather') format('svg'); /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/static/fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('/fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('/fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('/fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+:root {
+  background-color: #EAE6E5;
+  --lolletsoc-page-width: 1140px;
+  --lolletsoc-app-side-margin: 40rem;
+  --lolletsoc-page-width-with-margin: calc(
+          var(--lolletsoc-page-width) + calc(2 * var(--lolletsoc-app-side-margin))
+  );
+}
+
+html, body {
+  @apply h-full overflow-hidden;
+}
