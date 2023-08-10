@@ -26,13 +26,10 @@
             </button>
         </nav>
 
-        <h2 class="font-merriweather font-bold">Want to <i>hire me</i> or fancy a chat?</h2>
-        <p>
-            I'm available for hire, consultation and mentoring. <br/>
-            Contact me on <a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                             href="mailto:liam@lolletsoc.com">liam@lolletsoc.com</a>
-        </p>
+        <h2 class="font-merriweather font-bold">Want to <i>hire me</i> or fancy a chat? <a
+                class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="mailto:liam@lolletsoc.com">liam@lolletsoc.com</a></h2>
 
     </div>
-    <Img class="rounded-2xl ml-6 md:block hidden w-250" width="250" src={me} alt="Picture of me"/>
+    <Img class="rounded-2xl ml-6 md:block hidden" width="250" src={me} alt="Picture of me"/>
 </div>
