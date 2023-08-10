@@ -1,12 +1,12 @@
 <script>
-    import me from "/static/me.jpg?run&width=250";
+    import me from "/static/me.jpg?run";
     import Img from "@zerodevx/svelte-img";
     import {base} from '$app/paths';
 </script>
 
 <div class="mx-auto container bg-background flex flex-nowrap mt-[2em] h-auto w-fit">
     <div class="flex flex-col flex-wrap gap-10 mx-auto max-w-[36em]">
-        <span class="font-merriweather border-2 border-dashed border-black text-2xl w-fit p-2">
+        <span class="font-merriweather border-2 border-dashed border-black text-2xl w-fit p-2 leading-tight">
             <h1>Liam is a <span class="font-bold">principal engineer</span> and <span class="font-bold">architect</span> <br/> building products,
             high-performance <br/> systems and teams.</h1>
         </span>
@@ -34,5 +34,5 @@
         </p>
 
     </div>
-    <Img class="rounded-2xl ml-6 md:block hidden" src={me} alt="Picture of me"/>
+    <Img class="rounded-2xl ml-6 md:block hidden w-250" width="250" src={me} alt="Picture of me"/>
 </div>
