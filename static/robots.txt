@@ -6,3 +6,6 @@ Disallow: /
 
 User-agent: *
 Disallow:
+
+User-agent: GPTBot
+Disallow: /
